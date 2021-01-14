@@ -24,7 +24,7 @@ function calculate() {
         apple.innerHTML = str
     }
     for (let i = 0; i < randomSecond; i++) {
-        sec += `<div class="apple"value="${i}"></div>`
+        sec += `<div class="orange"value="${i}"></div>`
         orange.innerHTML = sec
     }
 

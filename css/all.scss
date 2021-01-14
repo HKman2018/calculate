@@ -1,0 +1,100 @@
+.box {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.firstAnswer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 19%;
+    background-color: rgb(208, 228, 28);
+    font-size: 100px;
+}
+
+.secondAnswer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 19%;
+    background-color: rgb(9, 226, 194);
+    font-size: 100px;
+    border: none;
+}
+
+.plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 19%;
+    background-color: rgb(252, 251, 249);
+    font-size: 100px;
+}
+
+.equal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 19%;
+    background-color: rgb(250, 249, 249);
+    font-size: 100px;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 19%;
+    background-color: rgb(247, 239, 25);
+    font-size: 100px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.firstImage {
+    width: 49%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(208, 228, 28);
+}
+
+.secondImage {
+    width: 49%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(9, 226, 194);
+    flex-wrap: wrap;
+}
+
+.apple {
+    width: 150px;
+    height: 150px;
+    margin: 10px 5px 0px;
+    background-color: rgb(238, 59, 59);
+    background: url("../images/IMG_1253.JPG") no-repeat;
+    background-size: cover;
+}
+
+.outPut {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 150px;
+    color: rgb(7, 226, 40);
+    text-align: center;
+}

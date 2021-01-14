@@ -133,6 +133,15 @@
   background-size: cover;
 }
 
+.orange {
+  width: 150px;
+  height: 150px;
+  margin: 10px 5px 0px;
+  background-color: #ee3b3b;
+  background: url("../images/IMG_1909.jpeg") no-repeat;
+  background-size: cover;
+}
+
 .outPut {
   max-width: 1000px;
   margin: 0 auto;

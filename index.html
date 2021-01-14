@@ -20,9 +20,28 @@
         <div class="firstImage"></div>
         <div class="secondImage"></div>
     </div>
+
     <div class="outPut">
     </div>
+
     <script src="./js/all.js"></script>
+    <script>
+        // var myAudio = document.getElementById("myAudio")
+        // console.log(myAudio.play())
+        var playPromise = audio.play();
+
+        if (playPromise !== undefined) {
+            playPromise.then(_ => {
+                // 这里就已经开始播放了
+                // 播放UI会出现（如果控件显示的话）
+                // 此时可以安全的暂停音视频了
+                audio.pause();
+            }).catch(error => {
+                // 无法自动播放
+                // 显示暂停的UI
+            });
+        }
+    </script>
 </body>
 
 </html>

@@ -36,11 +36,15 @@ result.addEventListener('keypress', function(e) {
         var num = (e.target.value).replace(/[^0-9]/g, "");
         console.log(num)
         if (num == answer) {
-            output.innerHTML = `<h1>success <br>
-                 答啱啦</h1>`
+            output.innerHTML = `
+               <audio src="./audio/excellent.m4a" id="myAudio" type="audio/mpeg" autoplay></audio>
+            <h1>success <br>
+                 答啱啦</h1>
+                 `
             calculate()
         } else {
-            output.innerHTML = `<h1>wrong <br>
+            output.innerHTML = `<audio src="./audio/wrong.m4a" id="myAudio" type="audio/mpeg" autoplay></audio>
+            <h1>wrong <br>
             答案唔啱</h1>`
         }
     }

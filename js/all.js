@@ -37,7 +37,7 @@ result.addEventListener('keypress', function(e) {
         console.log(num)
         if (num == answer) {
             output.innerHTML = `
-               <audio src="./audio/excellent.m4a" id="myAudio" type="audio/mpeg" autoplay></audio>
+               <audio src="./audio/good.m4a" id="myAudio" type="audio/mpeg" autoplay></audio>
             <h1>success <br>
                  答啱啦</h1>
                  `

@@ -43,7 +43,7 @@ result.addEventListener('keypress', function(e) {
                  `
             calculate()
         } else {
-            output.innerHTML = `<audio src="./audio/wrong.m4a" id="myAudio" type="audio/mpeg" autoplay></audio>
+            output.innerHTML = `<audio src="./audio/bb.m4a" id="myAudio" type="audio/mpeg" autoplay></audio>
             <h1>wrong <br>
             答案唔啱</h1>`
         }

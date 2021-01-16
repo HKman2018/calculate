@@ -1,155 +1,157 @@
 .box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  max-width: 1000px;
-  margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .firstAnswer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 200px;
-  width: 19%;
-  background-color: #d0e41c;
-  font-size: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 200px;
+    width: 19%;
+    background-color: #d0e41c;
+    font-size: 100px;
 }
 
 .secondAnswer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 200px;
-  width: 19%;
-  background-color: #09e2c2;
-  font-size: 100px;
-  border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 200px;
+    width: 19%;
+    background-color: #09e2c2;
+    font-size: 100px;
+    border: none;
 }
 
 .plus {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 200px;
-  width: 19%;
-  background-color: #fcfbf9;
-  font-size: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 200px;
+    width: 19%;
+    background-color: #fcfbf9;
+    font-size: 100px;
 }
 
 .equal {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 200px;
-  width: 19%;
-  background-color: #faf9f9;
-  font-size: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 200px;
+    width: 19%;
+    background-color: #faf9f9;
+    font-size: 100px;
 }
 
 .result {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 200px;
-  width: 19%;
-  background-color: #f7ef19;
-  font-size: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 200px;
+    width: 19%;
+    background-color: #f7ef19;
+    font-size: 100px;
 }
 
 .images {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  max-width: 1000px;
-  margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .firstImage {
-  width: 49%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  background-color: #d0e41c;
+    width: 49%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background-color: #d0e41c;
 }
 
 .secondImage {
-  width: 49%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background-color: #09e2c2;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+    width: 49%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    background-color: #09e2c2;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .apple {
-  width: 150px;
-  height: 150px;
-  margin: 10px 5px 0px;
-  background-color: #ee3b3b;
-  background: url("../images/IMG_1253.JPG") no-repeat;
-  background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin: 10px 5px 0px;
+    background-color: #ee3b3b;
+    background: url("../images/IMG_1253.JPG") no-repeat;
+    background-size: cover;
 }
 
 .orange {
-  width: 150px;
-  height: 150px;
-  margin: 10px 5px 0px;
-  background-color: #ee3b3b;
-  background: url("../images/IMG_1909.jpeg") no-repeat;
-  background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin: 10px 5px 0px;
+    background-color: #ee3b3b;
+    background: url("../images/IMG_1909.jpeg") no-repeat;
+    background-size: cover;
 }
 
 .outPut {
-  max-width: 1000px;
-  margin: 0 auto;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 h1 {
-  font-size: 150px;
-  color: #07e228;
-  text-align: center;
+    font-size: 150px;
+    color: #07e228;
+    text-align: center;
 }
+
+
 /*# sourceMappingURL=all.css.map */
